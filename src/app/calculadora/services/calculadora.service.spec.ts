@@ -47,7 +47,6 @@ describe('CalculadoraService', () => {
       let operacaoInvalida = service.calcular(1, 4, '%');
       expect(operacaoInvalida).toEqual(0);
     }));
-    
 });
 
 
